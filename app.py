@@ -17,7 +17,7 @@ if google_api_key is None :
 
 st.set_page_config(page_title="YouTube Chatbot", page_icon="📺", layout="wide")
 
-st.title("📺 YouTube Video Chatbot")
+st.title("YouTube Video Chatbot")
 st.write("This chatbot can answer questions about a YouTube video. Just provide the video URL in the sidebar to get started.")
 
 #fetching video id from the URL
